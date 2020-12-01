@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络状态" />
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WIFI状态" />
+
+    <ToggleButton
+        android:id="@+id/btn_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="打开wifi"
+        android:textOn="关闭wifi" />
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送通知" />
+
+    <Button
+        android:id="@+id/btn_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取所有传感器列表" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照" />
+</LinearLayout>
