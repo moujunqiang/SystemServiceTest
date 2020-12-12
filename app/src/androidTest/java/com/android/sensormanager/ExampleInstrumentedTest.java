@@ -1,4 +1,4 @@
-package com.android.systemservicetest;
+package com.android.sensormanager;
 
 import android.content.Context;
 

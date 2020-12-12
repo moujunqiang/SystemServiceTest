@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.android.systemservicetest">
+    package="com.android.sensormanager">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -18,8 +18,8 @@
         android:supportsRtl="true"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity2"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.android.sensormanager.MainActivity2"></activity>
+        <activity android:name="com.android.sensormanager.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
         <!-- 适配 Android 7.0 文件意图 -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.android.systemservicetest.provider"
+            android:authorities="com.android.sensormanager.provider"
             android:exported="false"
             android:grantUriPermissions="true">
 

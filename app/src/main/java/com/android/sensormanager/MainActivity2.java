@@ -1,4 +1,4 @@
-package com.android.systemservicetest;
+package com.android.sensormanager;
 
 import androidx.appcompat.app.AppCompatActivity;
 

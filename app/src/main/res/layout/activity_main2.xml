@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
     <TextView
-        android:text="这是点击通知跳转过来的页面"
+        android:text="第二个页面"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
